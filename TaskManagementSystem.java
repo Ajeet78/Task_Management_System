@@ -133,7 +133,7 @@ public class TaskManagementSystem {
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // Consume the newline character
+            sc.nextLine();
 
             switch (choice) {
                 case 1:
